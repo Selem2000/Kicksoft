@@ -1,0 +1,94 @@
+.white {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #e0e0e0;
+  position: relative;
+}
+h2 {
+  font-family: "evil empire", sans-serif;
+  letter-spacing: 5px;
+  color: #14a1c5;
+  font-size: 45px;
+}
+.bio img {
+  width: 215px;
+}
+p {
+  text-align: center;
+  line-height: 45px;
+  font-family: "Port Lligat Sans", sans-serif;
+  font-size: 22px;
+}
+@keyframes cube-white {
+  from {
+    transform: scale(0) translate(-50%, -50%);
+    opacity: 1;
+  }
+  to {
+    transform: scale(20) translate(-50%, -50%);
+    opacity: 0;
+  }
+}
+.cube-white {
+  position: absolute;
+  top: 25vh;
+  right: 15vw;
+  width: 10px;
+  height: 10px;
+  background: azure;
+
+  transform-origin: top left;
+  transform: scale(0) rotate(0deg) translate(-50%, -50%);
+  animation: cube-white 3s ease-in forwards infinite;
+}
+.cube-white:nth-child(1) {
+  animation-delay: 1s;
+  top: 22vh;
+  right: 36vw;
+  background: #f3748b26;
+}
+.cube-white:nth-child(2) {
+  animation-delay: 3s;
+  top: 30vh;
+  right: 25vw;
+  background: #f3748b26;
+}
+.cube-white:nth-child(3) {
+  animation-delay: 1s;
+  top: 45vh;
+  right: 15vw;
+  background: #15a9c726;
+}
+.cube-white:nth-child(4) {
+  animation-delay: 3s;
+  top: 60vh;
+  right: 25vw;
+  background: #1292c226;
+}
+.cube-white:nth-child(5) {
+  animation-delay: 2s;
+  top: 65vh;
+  right: 15vw;
+  background: #1292c226;
+}
+.cube-white:nth-child(6) {
+  animation-delay: 3s;
+  top: 25vh;
+  right: 10vw;
+  background: #15a9c726;
+}
+.cube-white:nth-child(7) {
+  animation-delay: 2s;
+  top: 45vh;
+  right: 35vw;
+  background: #0d6ebb26;
+}
+.cube-white:nth-child(8) {
+  animation-delay: 1s;
+  top: 60vh;
+  right: 40vw;
+  background: #0d6ebb26;
+}

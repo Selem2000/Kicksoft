@@ -1,0 +1,70 @@
+.contact {
+  display: flex;
+  flex-direction: row;
+}
+.contact .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 45%;
+  justify-content: space-evenly;
+}
+.contact .gmail {
+  font-family: "Port Lligat Sans";
+  color: #f374b8;
+  font-size: 22px;
+  font-weight: 400;
+}
+.contact .form {
+  display: flex;
+  flex-direction: column;
+  height: 35%;
+  width: 25%;
+  justify-content: space-around;
+}
+label {
+  font-family: "Port Lligat Sans";
+  font-size: 22px;
+  line-height: 37px;
+  display: flex;
+  justify-content: space-between;
+}
+label input {
+  width: 325px;
+  font-size: 16px;
+  padding: 10px 5px;
+  font-family: "Port Lligat Sans";
+  border: 1px solid #f374b8;
+}
+label textarea {
+  height: 100px;
+  width: 325px;
+  font-size: 16px;
+  padding: 10px 5px;
+  font-family: "Port Lligat Sans";
+  border: 1px solid #f374b8;
+  resize: none;
+}
+.submit {
+  width: 170px;
+  height: 50px;
+  background: #f3748b;
+  color: #fff;
+  font-family: "Port Lligat Sans";
+  font-size: 22px;
+  text-align: center;
+  font-weight: 400;
+  left: 103px;
+  position: relative;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.submit:hover {
+  background: #e4526d;
+}
+.submit:focus,
+label input:focus,
+label textarea:focus {
+  outline: none;
+}

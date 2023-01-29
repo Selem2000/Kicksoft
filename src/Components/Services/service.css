@@ -1,0 +1,121 @@
+.dark {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #282828;
+  position: relative;
+  color: #d9d9d9;
+}
+.service p {
+  font-family: "Port Lligat Sans", sans-serif;
+  font-size: 22px;
+  line-height: 45px;
+  text-align: start;
+  color: #d9d9d9;
+}
+.service p:nth-child(2n) {
+  text-align: start;
+}
+.service b {
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+}
+.service .serv {
+  height: 20vh;
+  width: 100%;
+  bottom: 0;
+  position: relative;
+  bottom: -57px;
+  margin: 0;
+  justify-content: inherit;
+  background: #000;
+  display: flex;
+  align-items: center;
+}
+.service .serv .list {
+  display: flex;
+  align-items: center;
+}
+.service .serv .list img {
+  margin-right: 10px;
+  width: 85px;
+}
+
+.service .serv .list h3 {
+  font-family: "Port Lligat Sans", sans-serif;
+  font-weight: bold;
+  color: #ffff;
+}
+@keyframes cube-dark {
+  from {
+    transform: scale(0) translate(-50%, -50%);
+    opacity: 1;
+  }
+  to {
+    transform: scale(20) translate(-50%, -50%);
+    opacity: 0;
+  }
+}
+.cube-dark {
+  position: absolute;
+  top: 25vh;
+  left: 15vw;
+  width: 10px;
+  height: 10px;
+  background: azure;
+
+  transform-origin: top left;
+  transform: scale(0) rotate(0deg) translate(-50%, -50%);
+  animation: cube-dark 3s ease-in forwards infinite;
+}
+.cube-dark:nth-child(1) {
+  animation-delay: 1s;
+  top: 20vh;
+  left: 15vw;
+  background: #f3748b26;
+}
+.cube-dark:nth-child(2) {
+  animation-delay: 3s;
+  top: 30vh;
+  left: 25vw;
+  background: #f3748b26;
+}
+.cube-dark:nth-child(3) {
+  animation-delay: 1s;
+  top: 45vh;
+  left: 15vw;
+  background: #15a9c726;
+}
+.cube-dark:nth-child(4) {
+  animation-delay: 3s;
+  top: 60vh;
+  left: 25vw;
+  background: #1292c226;
+}
+.cube-dark:nth-child(5) {
+  animation-delay: 2s;
+  top: 75vh;
+  left: 15vw;
+  background: #1292c226;
+}
+.cube-dark:nth-child(6) {
+  animation-delay: 3s;
+  top: 90vh;
+  left: 25vw;
+  background: #15a9c726;
+}
+.cube-dark:nth-child(7) {
+  animation-delay: 2s;
+  top: 45vh;
+  left: 35vw;
+  background: #0d6ebb26;
+}
+.cube-dark:nth-child(8) {
+  animation-delay: 1s;
+  top: 70vh;
+  left: 40vw;
+  background: #0d6ebb26;
+}

@@ -1,0 +1,46 @@
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background: #000000;
+  padding: 10px 35px;
+  align-items: center;
+  height: 10vh;
+  position: fixed;
+  z-index: 10;
+}
+
+.logo img {
+  width: 50px;
+}
+ul {
+  display: flex;
+  width: 70%;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 100px;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Evil Empire", sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  position: relative;
+}
+ul li a::after {
+  content: "";
+  position: absolute;
+  background-color: #f3748b;
+  left: 0;
+  bottom: -10px;
+  width: 0%;
+  height: 1px;
+  transition: 0.3s;
+}
+ul li a:hover::after {
+  width: 100%;
+}

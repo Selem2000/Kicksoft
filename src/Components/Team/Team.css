@@ -1,0 +1,30 @@
+.team {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.name {
+  font-family: "evil empire", sans-serif;
+  font-size: 22px;
+  letter-spacing: 5px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #fff;
+}
+.role {
+  font-family: "Port Lligat Sans", sans-serif;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: 400;
+  color: #f3748b;
+}
+.member img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}

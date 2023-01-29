@@ -1,0 +1,75 @@
+.footer {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Port Lligat Sans";
+  background: linear-gradient(180deg, #282828, #1b667d);
+}
+.foot-cont {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 42px;
+  height: 85%;
+}
+.companie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.companie img {
+}
+.companie h3 {
+  font-size: 30px;
+  text-align: center;
+  margin: 15px 0px;
+  color: #d9d9d9;
+  font-weight: normal;
+}
+.social {
+  width: 140%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 60%;
+  padding-right: 290px;
+}
+.folow {
+  position: relative;
+  top: 60px;
+  font-size: 35px;
+  line-height: 100%;
+  text-align: center;
+  color: #d9d9d9;
+}
+.social .icon {
+}
+.social .icon img {
+  margin: 0px 22px;
+}
+.link-foot {
+  width: 30%;
+  height: 60%;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
+}
+.link-foot li {
+}
+.link-foot li a {
+  color: #d9d9d9;
+  font-size: 25px;
+  font-family: "Port Lligat Sans";
+  line-height: 27px;
+  font-weight: normal;
+}
+.copywrite {
+  font-size: 17px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #282828;
+}
