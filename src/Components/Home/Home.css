@@ -29,7 +29,7 @@
 }
 @media only screen and (max-width: 600px) {
   .home {
-    width: 255vw;
+    width: 100vw;
     background-image: url(../../Images/Team-mobile.png);
     background-size: 290vw;
     height: 93vh;
@@ -37,10 +37,10 @@
   .home img {
   }
   .white {
-    width: 255vw;
+    width: 100vw;
   }
   .dark {
-    width: 255vw;
+    width: 100vw;
   }
   #kayotica {
     width: 524px;
