@@ -16,13 +16,9 @@ const Bio = () => {
       <h2 className="title">Who we are</h2>
       <img src={logo} alt="logo" />
       <p>
-        We are a unique self built startup with
-        <br />
-        experts in different fields.
-        <br />
-        We are the first company making visual novels
-        <br />
-        in Tunisia and Africa
+        We are a unique self built startup with experts in different fields.
+        <br id="bio-br" />
+        We are the first company making visual novels in Tunisia and Africa
       </p>
     </div>
   );

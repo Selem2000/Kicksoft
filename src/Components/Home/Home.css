@@ -47,9 +47,80 @@
     width: 100vw;
   }
   #kayotica {
-    width: 524px;
+    width: 290px;
   }
   p {
-    font-size: 32px;
+    font-size: 25px;
+    padding: 4px 7px;
+  }
+  .service p {
+    text-align: center !important;
+  }
+  .service .serv {
+    height: 62vh !important;
+    flex-direction: column;
+  }
+  .service {
+    height: 148vh !important;
+  }
+  .service .serv .list {
+    flex-direction: column;
+  }
+  .goal p {
+  }
+  #bio-br {
+    content: "";
+    display: block;
+    margin: 1rem;
+  }
+  #team {
+    height: 280vh;
+  }
+  .team {
+    height: 86%;
+  }
+  #contact {
+    flex-direction: column;
+  }
+  .contact .form {
+    width: 84%;
+    align-items: center;
+  }
+  label {
+    flex-direction: column;
+  }
+  .submit {
+    left: 0;
+  }
+  .foot-cont {
+    flex-direction: column;
+  }
+  .footer {
+    height: 75vh;
+  }
+  .companie {
+  }
+  .companie img {
+    width: 270px;
+  }
+  .companie h3 {
+    font-size: 21px;
+    margin-top: 26px;
+  }
+  .social {
+    padding: 0;
+    height: 70%;
+    /* margin-top: -108px; */
+    justify-content: flex-start;
+  }
+  .folow {
+    top: 1px;
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+  .link-foot {
+    height: 100%;
+    width: 100%;
+    align-items: center;
   }
 }

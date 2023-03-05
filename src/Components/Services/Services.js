@@ -17,17 +17,17 @@ const Services = () => {
       <span class="cube-dark"></span>
       <h2>What we do</h2>
       <p>
-        Our team of passionate game designers and <br />
-        developers strive to create excellent games{" "}
+        Our team of passionate game designers and developers strive to create
+        excellent games
       </p>
       <p>
         {" "}
         <b>About our games:</b>
         <br />
-        provide great entertainment to the players <br />
+        Make the player think about different solutions to provide great
+        entertainment
+        <br id="bio-br" />
         Tell rich and complex stories
-        <br />
-        Make the player think about different solutions.
       </p>
       <div className="serv">
         <div className="list">

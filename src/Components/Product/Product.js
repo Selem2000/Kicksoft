@@ -15,10 +15,10 @@ const Product = () => {
       <h2 style={{ marginTop: "50px" }}>Visual novel</h2>
       <img id="kayotica" src={kayotica} alt="kayotica" />
       <p>
-        kayotica is a drama thriller visual novel which is about <br />
-        bullying and violence in high school. <br />
-        The player will dive into a unique atmosphere filled with <br />
-        suspense, mystery and plot twists
+        kayotica is a drama thriller visual novel which is about bullying and
+        violence in high school. <br id="bio-br" />
+        The player will dive into a unique atmosphere filled with suspense,
+        mystery and plot twists
       </p>
     </div>
   );
