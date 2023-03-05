@@ -28,6 +28,10 @@
   background: #f45875;
 }
 @media only screen and (max-width: 600px) {
+  * {
+    overflow: hidden;
+  }
+
   .home {
     width: 100vw;
     background-image: url(../../Images/Team-mobile.png);
