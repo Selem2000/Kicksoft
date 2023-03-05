@@ -74,7 +74,7 @@
     margin: 1rem;
   }
   #team {
-    height: 280vh;
+    height: 300vh;
   }
   .team {
     height: 86%;
@@ -96,9 +96,10 @@
     flex-direction: column;
   }
   .footer {
-    height: 75vh;
+    height: 100vh;
   }
   .companie {
+    margin-top: 20px;
   }
   .companie img {
     width: 270px;
