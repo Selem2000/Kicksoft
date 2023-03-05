@@ -83,7 +83,7 @@
     flex-direction: column;
   }
   .contact .form {
-    width: 84%;
+    width: 100%;
     align-items: center;
   }
   label {
@@ -96,7 +96,7 @@
     flex-direction: column;
   }
   .footer {
-    height: 100vh;
+    height: 120vh;
   }
   .companie {
     margin-top: 20px;
